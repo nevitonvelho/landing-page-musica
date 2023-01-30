@@ -1,0 +1,258 @@
+*{
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('img/background.jpg');
+    /* You must set a specified height */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    color: #fff;
+}
+
+.teste{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    position: absolute;
+    z-index: 1px;
+}
+
+header{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo{
+    width: 360px;
+    overflow: hidden;
+    padding: 52px 0 0 0;    
+}
+
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+
+.aten{
+    margin: 22px 0;
+    text-align: center;
+}
+
+#frase-1{
+    font-size: 24px;
+}
+#frase-2{
+    font-size: 25px;
+}
+
+.cta-cab{
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+}
+
+.cta-cab .cta-1{
+    text-transform: uppercase;
+    color: #9ef01a;
+    font-size: 18px;
+    padding: 14px 40px;
+    border-radius: 1px;
+    border: 2px solid #9ef01a;
+    background-color: transparent;
+    cursor: pointer;
+    font-weight: 400;
+}
+.cta-cab .cta-2{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 18px;
+    padding: 14px 40px;
+    border-radius: 1px;
+    border: none;
+    background-color: #9ef01a;
+    cursor: pointer;
+    box-shadow: #9ef01a 0px 1px 2px;
+}
+
+.cta-cab span {
+    margin: 0 42px;
+    font-size: 28px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3em;
+}
+
+.text{
+    text-align: center;
+    width: 39%;
+    font-weight: 400;
+}
+
+#text01{
+    font-size: 18px;
+}
+
+#text02{
+    font-size: 22px;
+    margin: 22px;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+
+.inputs input {
+    width: 450px;
+    margin: 12px;
+    background-color: rgba(33, 33, 33, 0.778);
+    border: none;
+    color: #9ef01a;
+    font-size: 17px;
+    padding: 10px 14px;
+    border-radius: 2px;
+}
+
+.cta-ultimo{
+    text-transform: uppercase;
+    width: 70%;
+    color: #fff;
+    font-size: 18px;
+    padding: 16px 40px;
+    border-radius: 2px;
+    border: none;
+    background-color: #9ef01a;
+    cursor: pointer;
+    margin-top: 12px;
+}
+
+footer{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+footer img{
+    width: 40%;
+    height: 40%;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(255, 255, 255);
+    opacity: 1; /* Firefox */
+  }
+
+@media screen and (max-width:800px) {
+    body {
+        background-image: url('img/background.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        color: #fff;
+        
+    }
+
+    #frase-1{
+        font-size: 14px;
+    }
+    #frase-2{
+        font-size: 15px;
+    }
+
+    .logo{
+        width: 200px;
+        overflow: hidden;
+        padding: 52px 0 0 0;    
+    }
+
+    
+    .aten{
+        margin: 22px 0;
+        text-align: center;
+    }
+
+    .cta-cab .cta-1{
+        text-transform: uppercase;
+        color: #9ef01a;
+        font-size: 18px;
+        padding: 14px 20px;
+        border-radius: 1px;
+        border: 2px solid #9ef01a;
+        background-color: transparent;
+        cursor: pointer;
+        font-weight: 400;
+    }
+    .cta-cab .cta-2{
+        text-transform: uppercase;
+        color: #fff;
+        font-size: 18px;
+        padding: 14px 20px;
+        border-radius: 1px;
+        border: none;
+        background-color: #9ef01a;
+        cursor: pointer;
+        box-shadow: #9ef01a 0px 1px 2px;
+    }
+
+    .cta-cab{
+        justify-content: space-around;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .inputs{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        z-index: 2;
+    }
+    
+    .inputs input {
+        width: 100%;
+        
+        background-color: rgba(33, 33, 33, 0.778);
+        border: none;
+        color: #9ef01a;
+        font-size: 17px;
+        padding: 10px 14px;
+        border-radius: 2px;
+    }
+
+    .text{
+        text-align: center;
+        width: 100%;
+        font-weight: 400;
+        padding: 0 22px;
+    }
+    
+    #text01{
+        font-size: 20px;
+    }
+    
+    #text02{
+        font-size: 18px;
+        margin: 0;
+    }
+
+
+    footer img{
+        width: 100%;
+    }
+
+    
+}
